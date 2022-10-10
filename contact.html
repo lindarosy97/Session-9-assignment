@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us form</title>
+</head>
+<body>
+    <h1>Contact Us</h1>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br>
+        <label for="phno">Phone Number:</label>
+        <input type="text" id="phno" name="phno"><br>
+        <label for="email">Email address:</label>
+        <input type="text" id="email" name="email"><br>
+        <label for="emptype">Employee type</label>
+        <input type="radio" id="Salaried" name="emptype" value="Salaried"><label for="Salaried">Salaried</label>
+        <input type="radio" id="Own_Business" name="emptype" value="Own_business"><label for="Own_Business">Own Business</label><br>
+        <input type="submit" value="Submit">
+    </form>
+    <ul>
+        <li>Programming language
+            <ul>
+                <li>Javascript
+                    <ol type="a">
+                        <li>Angular</li>
+                        <li>React</li>
+                        <li>Vue.js</li>
+                    </ol>
+                </li>
+                <li>Python
+                    <ol type="a">
+                        <li>Django Framework</li>
+                        <li>Flask Framework</li>
+                    </ol> 
+                </li>
+                <li>Java
+                    <ol type="a">
+                        <li>Spring</li>
+                        <li>Maven</li>
+                        <li>Hibernate</li>
+                    </ol>
+                </li>
+            </ul>
+        </li>
+        <li>Database
+            <ul>
+                <li>MySQL</li>
+                <li>MongoDB</li>
+                <li>Casandra</li>
+            </ul>
+        </li>
+    </ul>
+    <a href="https://www.google.co.in/" target="_blank">Click here to open google in a seperate new tab</a><br>
+    <mark>HTML & CSS is awesome</mark>
+    <h3>Health chart</h3>
+    <table border="1px" style=" border-collapse: collapse">
+        <tr>
+          <th rowspan="2">State of health</th>
+          <th colspan="2">Fasting value</th>
+          <th>After eating</th>
+        </tr>
+        <tr>
+          <th>Minimum</th>
+          <th>Maximum</th>
+          <th>2 hours of eating</th>
+        </tr>
+        <tr>
+          <td>Healthy</td>
+          <td>70</td>
+          <td>100</td>
+          <td>Less than 40</td>
+        </tr>
+        <tr>
+            <td>Pre-diabetes</td>
+            <td>101</td>
+            <td>126</td>
+            <td>140 to 200</td>
+          </tr>
+          <tr>
+            <td>Diabetes</td>
+            <td>More than 126</td>
+            <td>N/A</td>
+            <td>More than 200</td>
+          </tr>
+      </table>
+      <h3>To show default values of input tags and various other input tags</h3>
+      <form action="/action_page.php">
+        <label for="fname">Name:</label>
+        <input type="text" id="fname" value="John"><br><br>
+        <label for="lname">Password:</label>
+        <input type="password" id="lname" value="John123"><br><br>
+        <input type="checkbox" id="Salaried" name="job1" value="Salaried"><label for="Salaried">Salaried</label>
+        <input type="checkbox" id="Own_Business" name="job2" value="Own_business"><label for="Own_Business">Own Business</label><br>
+        <label for="favcolor">Select your favorite color:</label><input type="color"><br>
+        <label for="birthday">Birthday:</label><input type="date"><br>
+        <label for="birthdaytime">Birthday (date and time):</label><input type="datetime-local"><br>
+        <label for="email">Enter your email:</label><input type="email"><br>
+        <label for="myfile">Select a file:</label><input type="file"><br>
+        <input type="image" src="https://yt3.ggpht.com/T8VahoNeFmk3EMg4BBlZvfcIiYmWiY899OZVtoCp1bvzkGFHvLEMLy1epz0gQzGohRCaIibs10c=s900-c-k-c0x00ffffff-no-rj" height="300px"><br>
+        <label for="bdaymonth">Birthday (month and year):</label><input type="month"><br>
+        <label for="quantity">Quantity (between 1 and 5):</label>
+        <input type="number" id="quantity" name="quantity" min="1" max="5"><br>
+        <label for="pwd">Password:</label><input type="password"><br>
+        <input type="radio" id="Salaried" name="emptype" value="Salaried"><label for="Salaried">Salaried</label>
+        <input type="radio" id="Own_Business" name="emptype" value="Own_business"><label for="Own_Business">Own Business</label><br>
+        <label for="points">Points (between 0 and 10):</label>
+        <input type="range" id="points" name="points" min="0" max="10"><br>
+        <label for="gsearch">Search Google:</label><input type="search"><br>
+        <input type="submit" value="Submit"><br>
+        <input type="button" value="Click me" ><br>
+        <input type="reset"><br>
+      </form>
+</body>
+</html>
